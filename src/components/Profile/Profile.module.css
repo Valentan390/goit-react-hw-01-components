@@ -1,0 +1,41 @@
+.profile {
+  border: 1px solid black;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: burlywood;
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.username {
+  text-align: center;
+}
+
+.tag {
+  text-align: center;
+}
+.location {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
